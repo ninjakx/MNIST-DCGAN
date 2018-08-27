@@ -3,8 +3,8 @@ Keras Implementation of DCGAN.
 
 
 ## Network Architecture
-[!Model](https://gluon.mxnet.io/_images/dcgan.png)
-https://gluon.mxnet.io/_images/dcgan.png
+![Model](https://gluon.mxnet.io/_images/dcgan.png)
+
 ### Generator
 hidden layers: Four 4x4 strided convolutional layers (1024 , 512, 256, and 128 kernels, respectively) with ReLU.
 output layer: 4x4 strided convolutional layer (4096 nodes = 64x64 size image) with Tanh.
@@ -19,4 +19,4 @@ Batch normalization is used.
 Images are resized to 28x28 size.
 
 ## Results
-[!results]
+![results](https://github.com/ninjakx/MNIST-DCGAN/blob/master/result.png)
